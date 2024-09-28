@@ -1,7 +1,7 @@
-print("Hello, world")
+print('Hello, world')
 
-print("Маша+Петя=Любовь")
+print('Маша + Петя = Любовь')
 
-print("x = 3+4")
-
-print(3+4)
+print('x = 3 + 4')
+x = 3 + 4
+print(x)
