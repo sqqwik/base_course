@@ -1,2 +1,4 @@
-for i in 1, 2 ,3, 4, 5, 6, 7, 8, 9:
-    print(i*1,i*2, i*3, i*4, i*5,i*6, i*7, i*8, i*9, end = "\n", sep =" ")
+for i in range(1, 10, 1):
+    for j in range(1, 10, 1):
+        print(f"{i*j}", end = " ")
+    print()
