@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
+k = 10
 def spiral(k):
     phi = np.arange(0.01, 8*(np.pi), 0.1)
     r = k / np.sqrt(phi)
@@ -17,4 +17,3 @@ def spiral(k):
     
     plt.savefig('fig_11.png')
 
-spiral(float(input("Введите значение k: ")))

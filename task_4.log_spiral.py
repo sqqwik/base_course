@@ -15,6 +15,6 @@ def log(b):
     plt.grid()
     plt.axis('equal')
     
-    plt.savefig('fig_task8.png')
+    plt.savefig('fig_8.png')
 
-log(float(input("Введите значение b: ")))
+log(0.5)
